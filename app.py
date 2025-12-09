@@ -416,7 +416,7 @@ with st.spinner("Loading Problems..."):
 current_db = live_data if live_data else FALLBACK_DB
 
 # 2. LIST VIEW
-st.title("🧩 LeetCode AI Assistant")
+st.title("🧩 LeetCode AI Study Helper")
 
 col_prev, col_info, col_next = st.columns([1, 4, 1])
 with col_prev:
